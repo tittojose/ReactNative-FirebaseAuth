@@ -50,9 +50,10 @@ class LoginForm extends Component {
             return (<AppSpinner />);
         }
 
-        return (<Button block onPress={this.onButtonPress.bind(this)}>
-            <Text>Login</Text>
-        </Button>
+        return (
+            <Button block onPress={this.onButtonPress.bind(this)}>
+                <Text>Login</Text>
+            </Button>
         );
 
     }
